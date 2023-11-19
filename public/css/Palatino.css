@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Palatino';
+	src: url(../../assets/fonts/Palatino.woff2) format('woff2'),
+	url(../../assets/fonts/Palatino.woff) format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}

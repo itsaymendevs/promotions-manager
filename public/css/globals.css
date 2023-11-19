@@ -1,0 +1,153 @@
+/* globals */
+
+:root {
+  --theme-main: #b80144;
+  --theme-alternative: #a9013e;
+  --theme-highlight: #fcdee9;
+  --theme-highlight-focus: #f3cbda;
+  --card-shadow: 0 0 4px rgba(0,0,0,.1);
+  --card-shadow-hover: 0 0 4px #d3b2be;
+  --card-background: white;
+  --card-radius: 5px;
+  --btn-radius: 5px;
+  --btn-cardlink-color: #b80144;
+  --search-shadow: 1px 1px 12px rgba(0,0,0,.1);
+  --input-radius: 4px;
+  --input-border: 1px solid lightgrey;
+  --input-border-color: lightgrey;
+  --input-height: 46px;
+  --input-padding: 15px;
+  --about-shadow: 1px 2px 20px rgba(0,0,0,.2);
+  --global-transition: 0.2s all ease-in;
+}
+
+/* object fit */
+
+.of-contain {
+  object-fit: contain;
+  object-position: center;
+}
+
+.of-cover {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* bg */
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+/* font size */
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+/* z-index */
+
+.z-index-0 {
+  z-index: 0;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+/* vh */
+
+.min-vh-80 {
+  min-height: 80vh;
+}
+
+.min-vh-85 {
+  min-height: 85vh;
+}
+
+.min-vh-90 {
+  min-height: 90vh;
+}
+
+.min-vh-95 {
+  min-height: 95vh;
+}
+
+.min-vh-97 {
+  min-height: 97vh;
+}
+
+/* letter spacing */
+
+.ls-05 {
+  letter-spacing: 0.5px;
+}
+
+.ls-07 {
+  letter-spacing: 0.7px;
+}
+
+/* truncate text */
+
+.truncate-text-1l {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: pre-wrap;
+}
+
+.truncate-text-2l {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: pre-wrap;
+}
+
+.truncate-text-4l {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  white-space: pre-wrap;
+}
+
+/* scale */
+
+.scale--11:hover i, .scale--11:focus i {
+  transform: scale(1.1);
+}
+
+.scale--12:hover i, .scale--12:focus i {
+  transform: scale(1.2);
+}
+
+.scale--13:hover i, .scale--13:focus i {
+  transform: scale(1.3);
+}
+
+.scale--14:hover i, .scale--14:focus i {
+  transform: scale(1.4);
+}
+
+/* rotate */
+
+.rotate--36:hover i, .rotate--36:focus i {
+  transform: scale(1.4) rotate(360deg);
+  transition: 0.8s all ease-in-out;
+}
+
